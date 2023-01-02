@@ -382,7 +382,7 @@
 </div>
 
     <div class="footer-subscribe">
-    <h2 class="section-title form-title">Subscribe</h2>
+    <h3 class="section-title form-title">Subscribe</h3>
     <form class="footer-form" name="footer_form">   
     <label class="form-all">
         <input type="email" name="email" class="form-input" autocomplete="on" placeholder="E-mail">
@@ -407,7 +407,7 @@
         </button>
          <form class="registration-form" name="registration_form">
         <strong class="registration-form-appeal">Leave your contacts and we will call you back</strong>
-    <div class="registration-form-group" role="group" aria-labelledby="">
+    <div class="registration-form-group" role="group">
         <label class="registration-form-field">
             <span class="registration-form-label">Name</span>
             <input class="registration-form-input" type="text" name="user_name" required minlength="3" placeholder=" ">
@@ -417,22 +417,22 @@
           </label> 
           <label class="registration-form-field">
             <span class="registration-form-label">Phone</span>
-            <input class="registration-form-input" type="phone" name="user_phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            <input class="registration-form-input" type="tel" name="user_phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
             <svg class="registration-form-icon" width="13" height="13">
-                <use href="./images/symbol-defs.svg#icon-phone"></use>
+                <use href="./images/symbol-defs.svg#icon-tel"></use>
             </svg>
           </label>
             <label class="registration-form-field">
                 <span class="registration-form-label">Email</span>
                 <input class="registration-form-input" type="email" name="user_mail">
-                <svg class="registration-form-icon" width="15" height="13">
+                <svg class="registration-form-icon" width="15" height="12">
                     <use href="./images/symbol-defs.svg#icon-email"></use>
                 </svg>
               </label>
 
           <label class="registration-form-textarea">
             <span class="registration-form-label">Comment</span>
-            <textarea class="registration-form-message" name="user_message" cols rows="10" placeholder="Text input"></textarea>
+            <textarea class="registration-form-message" name="user_message" rows="10" placeholder="Text input"></textarea>
         </label>
 
     </div>
